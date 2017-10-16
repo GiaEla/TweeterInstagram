@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::post('/feed', 'FeedController@getFeed');
+Route::get('/instagram-token', 'FeedController@getTokenUrl');
